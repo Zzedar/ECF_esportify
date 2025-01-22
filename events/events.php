@@ -1,16 +1,7 @@
 <?php
-// Connexion à la base de données
-$host = 'localhost';
-$dbname = 'esportify';
-$username = 'root';
-$password = '';
-
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Erreur de connexion : " . $e->getMessage());
-}
+require_once "../config.php";
+$database = new Database();
+$pdo = $database->getConnection();
 
 // Construire la requête avec des filtres
 $query = "SELECT * FROM events WHERE is_visible = 1";

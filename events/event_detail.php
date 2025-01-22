@@ -1,15 +1,7 @@
 <?php
-$host = 'localhost';
-$dbname = 'esportify';
-$username = 'root';
-$password = '';
-
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Erreur de connexion : " . $e->getMessage());
-}
+require_once "../config.php";
+$database = new Database();
+$pdo = $database->getConnection();
 
 if (!isset($_GET['id'])) {
     die("ID d'événement non spécifié.");

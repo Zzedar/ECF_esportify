@@ -1,4 +1,8 @@
 <?php
+require_once "../config.php";
+$database = new Database();
+$pdo = $database->getConnection();
+
 session_start();
 
 // Vérifie si l'utilisateur est un organisateur
@@ -7,18 +11,6 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'organizer') {
     exit();
 }
 
-// Connexion à la base de données
-$host = 'localhost';
-$dbname = 'esportify';
-$username = 'root'; // Remplace si nécessaire
-$password = ''; // Remplace si nécessaire
-
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    die("Erreur de connexion : " . $e->getMessage());
-}
 
 // Traitement de la requête
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['event_id'])) {
