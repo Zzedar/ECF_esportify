@@ -1,4 +1,6 @@
 <?php
+var_dump("coucou");
+die();
 require_once "config.php";
 $database = new Database();
 $pdo = $database->getConnection();
