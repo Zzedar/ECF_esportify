@@ -39,7 +39,7 @@ $favorites = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <header>
     <nav>
         <ul>
-            <li><a href="../Index.php">Accueil</a></li>
+            <li><a href="../index.php">Accueil</a></li>
             <li><a href="events.php">Événements</a></li>
             <li><a href="player_favorites.php">Mes Favoris</a></li>
             <li><a href="../login/logout.php">Déconnexion</a></li>

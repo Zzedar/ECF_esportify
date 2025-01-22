@@ -18,7 +18,7 @@ if (!isset($_SESSION['user_id']) || !in_array($_SESSION['role'], ['organizer', '
 <header>
     <nav>
         <ul>
-            <li><a href="../../Index.php">Accueil</a></li>
+            <li><a href="../../index.php">Accueil</a></li>
             <li><a href="../../events/events.php">Événements</a></li>
             <li><a href="../../contacts/contacts.php">Contact</a></li>
             <?php if (isset($_SESSION['username'])): ?>

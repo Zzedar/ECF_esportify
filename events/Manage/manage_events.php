@@ -54,7 +54,7 @@ $events = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <header>
     <nav>
         <ul>
-            <li><a href="../../Index.php">Accueil</a></li>
+            <li><a href="../../index.php">Accueil</a></li>
             <li><a href="../events.php">Événements</a></li>
             <li><a href="../../login/role/organizer_dashboard.php">Mon tableau de bord</a></li>
             <li><a href="../../login/logout.php">Déconnexion</a></li>

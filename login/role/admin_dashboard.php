@@ -15,7 +15,7 @@ checkAccess('admin'); // Vérifie que l'utilisateur est un administrateur
 <header>
     <nav>
         <ul>
-            <li><a href="../../Index.php">Accueil</a></li>
+            <li><a href="../../index.php">Accueil</a></li>
             <li><a href="../../events/events.php">Événements</a></li>
             <li><a href="../../contacts/contacts.php">Contact</a></li>
             <li><a href="organizer_dashboard.php">organisateur</a></li>

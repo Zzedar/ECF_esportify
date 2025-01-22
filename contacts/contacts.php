@@ -69,7 +69,7 @@ session_start(); // Assure-toi que la session est démarrée
 <header>
     <nav>
         <ul>
-            <li><a href="../Index.php">Accueil</a></li>
+            <li><a href="../index.php">Accueil</a></li>
             <li><a href="../events/events.php">Événements</a></li>
             <li><a href="../events/player_favorites.php">Mes Favoris</a></li>
             <li><a href="contacts.php">Contact</a></li>

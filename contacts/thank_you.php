@@ -9,7 +9,7 @@
 <body class="bodyBG">
 <h1 class="text">Merci pour votre message !</h1>
 <p>Nous vous répondrons dans les plus brefs délais.</p>
-<a class="lien" href="../Index.php">Retour à l'accueil</a>
+<a class="lien" href="../index.php">Retour à l'accueil</a>
 </body>
 <footer>
     <p>&copy; 2025 Esportify. Tous droits réservés.</p>
