@@ -2,9 +2,9 @@
 $db_url = getenv('JAWSDB_URL');
 $url_parts = parse_url($db_url);
 
-$db_host = $url_parts['host'];
-$db_user = $url_parts['user'];
-$db_pass = $url_parts['pass'];
+$db_host = $url_parts['e3pqkuprmh1aj5nm'];
+$db_user = $url_parts['r92r3g8xxrrs5dfd'];
+$db_pass = $url_parts['fkadbr0r78s8j5iv'];
 $db_name = ltrim($url_parts['path'], '/');
 
 try {
