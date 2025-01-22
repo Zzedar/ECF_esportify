@@ -1,0 +1,35 @@
+.bodyBG{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1e1e2f;
+
+}
+
+.text{
+    color: #ffffff;
+    text-align: center;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.lien{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(141, 36, 169);
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c2c3e;
+}

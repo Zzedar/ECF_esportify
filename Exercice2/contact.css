@@ -1,0 +1,43 @@
+.prenom{
+    border-radius: 30px;
+    border: solid 3px black;
+    width: 100px;
+    background-color: blueviolet;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mail{
+    border-radius: 30px;
+    width: 100px;
+    border: solid 3px black;
+    background-color: blueviolet;
+
+
+
+}
+
+
+.descr{
+    border-radius: 20px;
+    width: 200px;
+    border: solid 3px black;
+    background-color: blueviolet;
+
+}
+
+
+.boutton{
+    color: red;
+    width: 100px;
+}
+
+.boutton:hover{
+    color: blue;
+    background-color: violet;
+}

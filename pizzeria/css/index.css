@@ -1,0 +1,33 @@
+
+/*style pour le body*/
+/*header {*/
+/*    background-image: url('../img/pizza.gif');*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 100%;*/
+/*    height: 80vh;*/
+/*}*/
+/*style pour l'image'*/
+.home_page_gif{
+    width: 100%;
+    height: 100vh;
+    margin-top: -2rem;
+}
+/*style pour le titre de la page d'accueil*/
+.home_page_title {
+    width: 50%;
+    height: 20rem;
+    background-image: url('../img/pipizza.webp');
+    text-align: center;
+    margin-top: 7rem;
+    color: #c31717;
+}
+
+/*style pour le header du menu*/
+header{
+    background-color: #171515;
+
+
+}
+.header_menu{
+
+}
